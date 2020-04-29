@@ -1,2 +1,0 @@
-# Covid
-Covid resource site
