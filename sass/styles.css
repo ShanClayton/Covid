@@ -153,4 +153,13 @@ body {
 .card-six {
   background: #fccbab;
 }
+
+.card i {
+  font-size: 3rem;
+  color: #3d3c38;
+}
+
+.card-seven {
+  background: #93c0bd;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -19,7 +19,9 @@
 }
 
 .tracker__board-cardheader {
-    @include subheader &span {
+    @include subheader 
+    
+    &span {
         font-size: 3rem;
         font-weight: 700;
         letter-spacing: 3px;
@@ -62,4 +64,12 @@
 
 .card-six {
     background: $color-apricot;
+}
+
+.card i {
+    font-size: 3rem;
+    color: $color-black-olive;
+}
+.card-seven {
+    background: $color-opal;
 }
