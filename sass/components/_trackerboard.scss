@@ -1,0 +1,65 @@
+.tracker {
+    z-index: 1;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 2.4rem;
+    -webkit-border-radius: 2.4rem;
+    -moz-border-radius: 2.4rem;
+    -ms-border-radius: 2.4rem;
+    -o-border-radius: 2.4rem;
+    background: $color-champagne-pink;
+    padding: 2%;
+    box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
+
+}
+
+.tracker__board {
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+.tracker__board-cardheader {
+    @include subheader &span {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+}
+
+.card {
+    width: 84%;
+    background: $color-primary-dark;
+    padding: 8%;
+    margin-bottom: 20%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: $color-white;
+
+}
+
+.card-one {
+    background: $color-opal;
+}
+
+.card-two {
+    background: $color-ash-grey;
+}
+
+.card-three {
+    background: $color-apricot;
+}
+
+.card-four {
+    background: $color-opal;
+}
+
+.card-five {
+    background: $color-ash-grey;
+}
+
+.card-six {
+    background: $color-apricot;
+}
