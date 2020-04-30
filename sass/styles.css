@@ -1,3 +1,27 @@
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 9rem !important;
+}
+
+.u-margin-top-big {
+  margin-bottom: 8rem !important;
+}
+
+.u-margin-top-bigger {
+  margin-bottom: 10rem !important;
+}
+
 *,
 *::after,
 *::before {
@@ -49,8 +73,8 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#007A7A), to(#003F5A));
-  background-image: linear-gradient(to right, #007A7A, #003F5A);
+  background-image: -webkit-gradient(linear, left top, right top, from(#fccbab), to(#93c0bd));
+  background-image: linear-gradient(to right, #fccbab, #93c0bd);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
@@ -111,12 +135,6 @@ body {
   font-size: 1rem;
 }
 
-.tracker__board-cardheaderspan {
-  font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
-
 .card {
   width: 84%;
   background: #003F5A;
@@ -159,7 +177,9 @@ body {
   color: #3d3c38;
 }
 
-.card-seven {
-  background: #93c0bd;
+span {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=styles.css.map */

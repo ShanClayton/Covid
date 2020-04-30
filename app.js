@@ -11,5 +11,4 @@ fetch('https://corona.lmao.ninja/v2/countries/USA')
         document.getElementById("death").innerHTML = data.deaths.toLocaleString();
         document.getElementById("recovery").innerHTML = data.recovered.toLocaleString();
         document.getElementById("test").innerHTML = data.tests.toLocaleString();
-        document.getElementById("race").innerHTML = data.tests.toLocaleString();
     });
