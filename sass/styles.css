@@ -39,6 +39,30 @@ body {
   padding: 3rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+
+.header {
+  height: 95vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(252, 203, 171, 0.8)), to(rgba(162, 174, 172, 0.8))), url(../img/covidppl.jpg);
+  background-image: linear-gradient(to right bottom, rgba(252, 203, 171, 0.8), rgba(162, 174, 172, 0.8)), url(../img/covidppl.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .header-primary {
@@ -52,7 +76,7 @@ body {
 
 .header-primary--main {
   display: block;
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 400;
   letter-spacing: 3.5rem;
   animation: moveInLeft 1s ease-in;
@@ -61,9 +85,9 @@ body {
 
 .header-primary--sub {
   display: block;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 700;
-  letter-spacing: 1.75rem;
+  letter-spacing: 1rem;
   animation: moveInLeft 1s ease-out;
   -webkit-animation: moveInLeft 1s ease-out;
 }
@@ -78,20 +102,6 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
-  transition: all .2s;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  -o-transition: all .2s;
-}
-
-.heading-secondary:hover {
-  transform: skewY(2deg) scale(1.1);
-  -webkit-transform: skewY(2deg) scale(1.1);
-  -moz-transform: skewY(2deg) scale(1.1);
-  -ms-transform: skewY(2deg) scale(1.1);
-  -o-transform: skewY(2deg) scale(1.1);
-  text-shadow: 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .heading-tertiary {
@@ -157,7 +167,7 @@ body {
 }
 
 .card-three {
-  background: #fccbab;
+  background: #afe0dc;
 }
 
 .card-four {
@@ -169,7 +179,7 @@ body {
 }
 
 .card-six {
-  background: #fccbab;
+  background: #afe0dc;
 }
 
 .card i {
@@ -181,5 +191,22 @@ span {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .tracker__board {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  .card span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tracker__board {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

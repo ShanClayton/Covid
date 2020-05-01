@@ -10,6 +10,7 @@
     background: $color-champagne-pink;
     padding: 2%;
     box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
+    
 
 }
 
@@ -46,7 +47,7 @@
 }
 
 .card-three {
-    background: $color-apricot;
+    background: $color-powder-blue;
 }
 
 .card-four {
@@ -58,7 +59,7 @@
 }
 
 .card-six {
-    background: $color-apricot;
+    background: $color-powder-blue;
 }
 
 .card i {
@@ -72,3 +73,23 @@ span {
         letter-spacing: 1px;
         
     }
+
+    // MEDIA QUERIES 
+
+
+@media screen and (max-width: 768px) {
+    .tracker__board {
+        column-count: 2;
+    }
+    
+    .card span {
+        font-size: 1rem;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tracker__board {
+        column-count: 1;
+    }
+}
