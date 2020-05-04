@@ -1,3 +1,5 @@
+// Tracker
+// Tracker
 fetch('https://corona.lmao.ninja/v2/countries/USA')
     .then((response) => {
         return response.json();
@@ -12,3 +14,7 @@ fetch('https://corona.lmao.ninja/v2/countries/USA')
         document.getElementById("recovery").innerHTML = data.recovered.toLocaleString();
         document.getElementById("test").innerHTML = data.tests.toLocaleString();
     });
+
+    // navigation
+
+    //animation
