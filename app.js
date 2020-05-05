@@ -1,5 +1,20 @@
+ // navigation
+//function expression to select elements
+const selectElement = (s) => document.querySelector(s);
+//open the menu when clicked
+selectElement('.open').addEventListener('click', ()=>{
+    selectElement('.nav__list').classList.add('active');
+});
+
+//close menu when clicked
+selectElement('.close').addEventListener('click', ()=>{
+    selectElement('.nav__list').classList.remove('active')
+});
+
+
+
 // Tracker
-// Tracker
+//fetching api to show data
 fetch('https://corona.lmao.ninja/v2/countries/USA')
     .then((response) => {
         return response.json();
@@ -15,6 +30,5 @@ fetch('https://corona.lmao.ninja/v2/countries/USA')
         document.getElementById("test").innerHTML = data.tests.toLocaleString();
     });
 
-    // navigation
 
     //animation

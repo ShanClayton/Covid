@@ -86,10 +86,66 @@ nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.nav__logo {
+  width: 2rem;
+}
+
 .nav__menu-icons i {
   font-size: 3.5rem;
   color: #000;
   cursor: pointer;
+}
+
+.close i {
+  color: #FF5D96;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+}
+
+.nav__list {
+  width: 25rem;
+  height: 100vh;
+  background-color: #a2aeac;
+  position: fixed;
+  top: 0;
+  right: -26rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1500;
+  transition: all 650ms ease-in-out;
+  -webkit-transition: all 650ms ease-in-out;
+  -moz-transition: all 650ms ease-in-out;
+  -ms-transition: all 650ms ease-in-out;
+  -o-transition: all 650ms ease-in-out;
+}
+
+.nav__list.active {
+  right: 0;
+}
+
+.nav__item {
+  margin: 1.5rem 0;
+}
+
+.nav__link {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .header {

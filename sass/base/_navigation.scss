@@ -7,8 +7,56 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, .2);
 }
 
+.nav__logo {
+width: 2rem;
+}
+
 .nav__menu-icons i {
  font-size: 3.5rem;
  color: $color-black;
  cursor: pointer;
+}
+
+.close i {
+    color: $color-menu-close;
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+.nav__list {
+    width: 25rem;
+    height: 100vh;
+    background-color: $color-ash-grey;
+    position: fixed;
+    top: 0;
+    right: -26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // stays on top 
+    z-index: 1500;
+    transition: all 650ms ease-in-out;
+    -webkit-transition: all 650ms ease-in-out;
+    -moz-transition: all 650ms ease-in-out;
+    -ms-transition: all 650ms ease-in-out;
+    -o-transition: all 650ms ease-in-out;
+}
+
+.nav__list.active {
+    right: 0;
+}
+
+.nav__item {
+    margin: 1.5rem 0;
+}
+
+.nav__link {
+   font-size: 1.6rem;
+   text-transform: uppercase;
+   color: rgba(0,0,0,.7); 
 }
