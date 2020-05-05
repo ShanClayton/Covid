@@ -53,13 +53,13 @@
 }
 
 .btn {
-    background-color: $color-powder-blue;
+    background-color: $color-top-header;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
-    color: $color-primary-dark;
+    color: $color-menu-close;
     display: inline-block;
     margin-top: 2rem;
     padding: 1rem 2.5rem;
@@ -71,7 +71,7 @@
     -o-transition: background-color 650ms;
 
     &:hover {
-        background-color: $color-apricot;
+        background-color: $color-misty-rose;
     }
 }
 

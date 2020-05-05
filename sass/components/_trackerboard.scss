@@ -7,9 +7,7 @@
     -moz-border-radius: 2.4rem;
     -ms-border-radius: 2.4rem;
     -o-border-radius: 2.4rem;
-    // background: $color-ash-grey;
     padding: 2%;
-    // box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
     
 
 }
@@ -35,6 +33,7 @@
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
     color: $color-white;
+     box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
 
 }
 
@@ -77,6 +76,16 @@ span {
     // MEDIA QUERIES 
 
 
+@media screen and (max-width: 900px) {
+    .tracker__board {
+        column-count: 2;
+    }
+    
+    .card span {
+        font-size: 1rem;
+
+    }
+}
 @media screen and (max-width: 768px) {
     .tracker__board {
         column-count: 2;
@@ -84,6 +93,7 @@ span {
     
     .card span {
         font-size: 1rem;
+        padding: 10px;
 
     }
 }

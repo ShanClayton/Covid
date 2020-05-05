@@ -199,13 +199,13 @@ nav {
 }
 
 .btn {
-  background-color: #afe0dc;
+  background-color: #5730B2;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-  color: #003F5A;
+  color: #FF5D96;
   display: inline-block;
   margin-top: 2rem;
   padding: 1rem 2.5rem;
@@ -218,7 +218,7 @@ nav {
 }
 
 .btn:hover {
-  background-color: #fccbab;
+  background-color: #fee6e2;
 }
 
 .tracker {
@@ -256,6 +256,8 @@ nav {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   color: #fff;
+  -webkit-box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
 }
 
 .card-one {
@@ -293,6 +295,16 @@ span {
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 900px) {
+  .tracker__board {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  .card span {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .tracker__board {
     -webkit-column-count: 2;
@@ -300,6 +312,7 @@ span {
   }
   .card span {
     font-size: 1rem;
+    padding: 10px;
   }
 }
 

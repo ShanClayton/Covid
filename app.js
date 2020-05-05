@@ -1,7 +1,7 @@
  // navigation
 //function expression to select elements
 const selectElement = (s) => document.querySelector(s);
-//open the menu when clicked
+//open menu when clicked
 selectElement('.open').addEventListener('click', ()=>{
     selectElement('.nav__list').classList.add('active');
 });
