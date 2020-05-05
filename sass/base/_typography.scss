@@ -22,7 +22,7 @@
     bottom: 0;
     width: 100%;
     height: 4.7rem;
-    background: url("../img/wave-small.png") center no-repeat;
+    background: url("../img/wave-large.png") center no-repeat;
     background-size: cover;
 }
 
@@ -75,85 +75,4 @@
     }
 }
 
-
-
-
-
-
-
-
-// .header {
-//     height: 95vh;
-//     background-image: linear-gradient(to right top, rgba($color-champagne-pink, 0.7), rgba($color-powder-blue, 0.7)), url(../img/covidppl.jpg);
-//     background-size: cover;
-//     background-position: top;
-//     position: relative;
-//     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-//     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-
-//     &__text-box {
-//         position: absolute;
-//         top: 40%;
-//         left: 50%;
-//         transform: translate(-50%, -50%);
-//         -webkit-transform: translate(-50%, -50%);
-//         -moz-transform: translate(-50%, -50%);
-//         -ms-transform: translate(-50%, -50%);
-//         -o-transform: translate(-50%, -50%);
-//         text-align: center;
-//     }
-// }
-
-// .header-primary {
-//     color: $color-primary-light;
-//     text-transform: uppercase;
-//     /* hidden prevents shakiness on animation */
-//     backface-visibility: hidden;
-//     -webkit-backface-visibility: hidden;
-//     margin-bottom: 6rem;
-
-//     &--main {
-//         display: block;
-//         font-size: 2.5rem;
-//         font-weight: 400;
-//         letter-spacing: 2rem;
-//         animation: moveInLeft 1s ease-in;
-//         -webkit-animation: moveInLeft 1s ease-in;
-//     }
-
-//     &--sub {
-//         display: block;
-//         font-size: 1rem;
-//         font-weight: 700;
-//         letter-spacing: 1rem;
-//         animation: moveInLeft 1s ease-out;
-//         -webkit-animation: moveInLeft 1s ease-out;
-//     }
-// }
-
-// .heading-secondary {
-//     font-size: 3.5rem;
-//     text-transform: uppercase;
-//     font-weight: 700;
-//     display: inline-block;
-//     background-image: linear-gradient(to right, $color-apricot, $color-opal);
-//     -webkit-background-clip: text;
-//     color: transparent;
-//     letter-spacing: 2px;
-   
-// }
-
-// .heading-tertiary {
-//     font-size: 2rem;
-//     font-weight: 700;
-//     text-transform: uppercase;
-// }
-
-// .paragraph {
-//     font-size: $default-font-size;
-
-//     &:not(:last-child) {
-//         margin-bottom: 3rem;
-//     }
-// }
 
