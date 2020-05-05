@@ -38,10 +38,6 @@ html {
           box-sizing: border-box;
 }
 
-body {
-  background-color: #93c0bd;
-}
-
 a {
   text-decoration: none;
 }
@@ -160,7 +156,7 @@ nav {
 .header__image-main {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(135deg, rgba(255, 93, 150, 0.9) 0%, rgba(87, 48, 178, 0.8) 100%), url("../img/covidppl.jpg") center no-repeat;
+  background: linear-gradient(135deg, rgba(87, 48, 178, 0.9) 0%, rgba(255, 93, 150, 0.8) 100%), url("../img/covidppl.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -174,6 +170,55 @@ nav {
   height: 4.7rem;
   background: url("../img/wave-small.png") center no-repeat;
   background-size: cover;
+}
+
+.header__main {
+  width: 100%;
+  max-width: 50rem;
+  color: #fafafa;
+  text-transform: uppercase;
+  transform: translateY(20%);
+  -webkit-transform: translateY(20%);
+  -moz-transform: translateY(20%);
+  -ms-transform: translateY(20%);
+  -o-transform: translateY(20%);
+}
+
+.header__text-main {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.header__text-sub h3 {
+  font-size: 1.6rem;
+}
+
+.header__text-p {
+  text-transform: lowercase;
+}
+
+.btn {
+  background-color: #afe0dc;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  color: #003F5A;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  transition: background-color 650ms;
+  -webkit-transition: background-color 650ms;
+  -moz-transition: background-color 650ms;
+  -ms-transition: background-color 650ms;
+  -o-transition: background-color 650ms;
+}
+
+.btn:hover {
+  background-color: #fccbab;
 }
 
 .tracker {
