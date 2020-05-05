@@ -11,7 +11,8 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="sass/styles.css">
     <title>COVID-19 Resource & Tracker</title>
@@ -20,19 +21,19 @@
 <body>
     <!-- NAVIGATION -->
     <!-- HEADER -->
-      <header class="header">
-          <div class="container">
-              <nav>
-                  <div class="nav__logo">
-                      <a href="index.html">
-                          <img src="img/covidlogo.png" alt="covid logo">
-                      </a>
-                  </div>
-                  <div class="nav__menu-icons open">
-                      <i class="icon ion-md-menu"></i>
-                  </div>
-                  <ul class="nav__list">
-                      <div class="nav__menu-icons close">
+    <header class="header">
+        <div class="container">
+            <nav>
+                <div class="nav__logo">
+                    <a href="index.html">
+                        <img src="img/covidlogo.png" alt="covid logo">
+                    </a>
+                </div>
+                <div class="nav__menu-icons open">
+                    <i class="icon ion-md-menu"></i>
+                </div>
+                <ul class="nav__list">
+                    <div class="nav__menu-icons close">
                         <i class="icon ion-md-close"></i>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Home</a>
@@ -46,11 +47,11 @@
                         <li class="nav__item">
                             <a href="#" class="nav__link">Resources</a>
                         </li>
-                      </div>
-                  </ul>
-              </nav>
-          </div>
-          <!-- <div class="header__text-box">
+                    </div>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div class="header__text-box">
               <h1 class="header-primary">
                 
                   <span class="header-primary--main">
@@ -59,65 +60,67 @@
               </h1>
              <a href="#tour" class="btn btn--white btn--animated">Discover our tours</a>
           </div> -->
-      </header>
+    </header>
     <section>
         <div class="container">
-            <div class="header__text-main">
+            <div class="header__image-main">
                 <h3>What is</h3>
                 <h1>Covid-19</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nesciunt nam, vero vitae, alias eligendi fugit optio omnis, ex pariatur corporis quas adipisci ipsum amet ipsa. Consequatur quos voluptatum quisquam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nesciunt nam, vero vitae, alias
+                    eligendi fugit optio omnis, ex pariatur corporis quas adipisci ipsum amet ipsa. Consequatur quos
+                    voluptatum quisquam?</p>
             </div>
             <div class="button">
                 <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" class="btn">Read More</a>
             </div>
         </div>
     </section>
-        <!-- TRACKER -->
-        <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">Real time statistics</h2>
+    <!-- TRACKER -->
+    <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Real time statistics</h2>
         <section class="tracker">
-        <div class="u-center-text u-margin-big">
-            <h3 class="heading-tertiary u-center-text u-margin-big">Covid-19 cases in <span id="country"></h2>
-        </div>
-        <div class="tracker__board">
-            <div class="card card-one">
-                <i class="fas fa-viruses"></i>
-                <h5 class="tracker__board-cardheader">
-                    Active Cases</h5>
+            <div class="u-center-text u-margin-big">
+                <h3 class="heading-tertiary u-center-text u-margin-big">Covid-19 cases in <span id="country"></h2>
+            </div>
+            <div class="tracker__board">
+                <div class="card card-one">
+                    <i class="fas fa-viruses"></i>
+                    <h5 class="tracker__board-cardheader">
+                        Active Cases</h5>
                     <span id="active"></span>
+                </div>
+                <div class="card card-two">
+                    <i class="fas fa-user-nurse"></i>
+                    <h5 class="tracker__board-cardheader">Total Cases</h5>
+                    <span id="cases"></span>
+                </div>
+                <div class="card card-three">
+                    <i class="fas fa-hospital-user"></i>
+                    <h5 class="tracker__board-cardheader">Critical Cases</h5>
+                    <span id="critical"></span>
+                </div>
+                <div class="card card-four">
+                    <i class="fas fa-skull-crossbones"></i>
+                    <h5 class="tracker__board-cardheader">Total Deaths</h5>
+                    <span id="death"></span>
+                </div>
+                <div class="card card-five">
+                    <i class="fa fas fa-check-square"></i>
+                    <h5 class="tracker__board-cardheader">Recoveries</h5>
+                    <span id="recovery"></span>
+                </div>
+                <div class="card card-six">
+                    <i class="fas fa-microscope"></i>
+                    <h5 class="tracker__board-cardheader">Total Tests</h5>
+                    <span id="test"></span>
+                </div>
             </div>
-            <div class="card card-two">
-                <i class="fas fa-user-nurse"></i>
-                <h5 class="tracker__board-cardheader">Total Cases</h5>
-                <span id="cases"></span>
-            </div>
-            <div class="card card-three">
-                <i class="fas fa-hospital-user"></i>
-                <h5 class="tracker__board-cardheader">Critical Cases</h5>
-                <span id="critical"></span>
-            </div>
-            <div class="card card-four">
-                <i class="fas fa-skull-crossbones"></i>
-                <h5 class="tracker__board-cardheader">Total Deaths</h5>
-                <span id="death"></span>
-            </div>
-            <div class="card card-five">
-                <i class="fa fas fa-check-square"></i>
-                <h5 class="tracker__board-cardheader">Recoveries</h5>
-                <span id="recovery"></span>
-            </div>
-            <div class="card card-six">
-                <i class="fas fa-microscope"></i>
-                <h5 class="tracker__board-cardheader">Total Tests</h5>
-                <span id="test"></span>
-            </div>
-        </div>
-</section>
-   
+        </section>
 
 
-    <script src="https://kit.fontawesome.com/725cff2ff8.js" crossorigin="anonymous"></script>
-   <script type="text/javascript" src="app.js"></script>
+
+        <script src="https://kit.fontawesome.com/725cff2ff8.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
