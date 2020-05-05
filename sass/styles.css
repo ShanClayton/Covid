@@ -230,7 +230,7 @@ nav {
   -moz-border-radius: 2.4rem;
   -ms-border-radius: 2.4rem;
   -o-border-radius: 2.4rem;
-  background: #e3cdc4;
+  background: #a2aeac;
   padding: 2%;
   -webkit-box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
@@ -262,32 +262,32 @@ nav {
 }
 
 .card-one {
-  background: #93c0bd;
+  background: #FF5D96;
 }
 
 .card-two {
-  background: #a2aeac;
+  background: #5730B2;
 }
 
 .card-three {
-  background: #afe0dc;
-}
-
-.card-four {
   background: #93c0bd;
 }
 
+.card-four {
+  background: #FF5D96;
+}
+
 .card-five {
-  background: #a2aeac;
+  background: #5730B2;
 }
 
 .card-six {
-  background: #afe0dc;
+  background: #93c0bd;
 }
 
 .card i {
   font-size: 3rem;
-  color: #3d3c38;
+  color: #000;
 }
 
 span {

@@ -7,7 +7,7 @@
     -moz-border-radius: 2.4rem;
     -ms-border-radius: 2.4rem;
     -o-border-radius: 2.4rem;
-    background: $color-champagne-pink;
+    background: $color-ash-grey;
     padding: 2%;
     box-shadow: 0px 10px 6px -8px rgba(0, 0, 0, 0.75);
     
@@ -39,32 +39,32 @@
 }
 
 .card-one {
-    background: $color-opal;
+    background: $color-menu-close;
 }
 
 .card-two {
-    background: $color-ash-grey;
+    background: $color-top-header;
 }
 
 .card-three {
-    background: $color-powder-blue;
-}
-
-.card-four {
     background: $color-opal;
 }
 
+.card-four {
+    background: $color-menu-close;
+}
+
 .card-five {
-    background: $color-ash-grey;
+    background: $color-top-header;
 }
 
 .card-six {
-    background: $color-powder-blue;
+    background: $color-opal;
 }
 
 .card i {
     font-size: 3rem;
-    color: $color-black-olive;
+    color: $color-black;
 }
 
 span {
