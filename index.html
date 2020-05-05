@@ -3,8 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Ion Icons-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="sass/styles.css">
@@ -15,17 +21,52 @@
     <!-- NAVIGATION -->
     <!-- HEADER -->
       <header class="header">
-          <div class="header__text-box">
+          <div class="container">
+              <nav>
+                  <div class="nav__menu-icons open">
+                      <i class="icon ion-md-menu"></i>
+                  </div>
+                  <ul class="nav__list">
+                      <div class="menu__icons-close">
+                        <i class="icon ion-md-close"></i>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Tracker</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Prevention</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Resources</a>
+                        </li>
+                      </div>
+                  </ul>
+              </nav>
+          </div>
+          <!-- <div class="header__text-box">
               <h1 class="header-primary">
-                  <!-- modifier -->
+                
                   <span class="header-primary--main">
                       COVID-19</span>
                   <span class="header-primary--sub">put something here  </span>
               </h1>
-              <!-- <a href="#tour" class="btn btn--white btn--animated">Discover our tours</a> -->
-          </div>
+             <a href="#tour" class="btn btn--white btn--animated">Discover our tours</a>
+          </div> -->
       </header>
-    <main>
+    <section>
+        <div class="container">
+            <div class="header__text-main">
+                <h3>What is</h3>
+                <h1>Covid-19</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nesciunt nam, vero vitae, alias eligendi fugit optio omnis, ex pariatur corporis quas adipisci ipsum amet ipsa. Consequatur quos voluptatum quisquam?</p>
+            </div>
+            <div class="button">
+                <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
         <!-- TRACKER -->
         <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary">Real time statistics</h2>
@@ -68,36 +109,10 @@
         </div>
 </section>
    
-<!-- PREVENTION & SICKNESS -->
-<section class="prevention">
-    <div class="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary">Prevention</h2>
-        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem
-            possimus autem perferendis harum eveniet quam nam, praesentium libero quibusdam cupiditate,
-            facilis.</p>
 
-        <a href="#" class="btn-text">Learn more &rarr;</a>
-    </div>
-</section>
 
-        <!-- RESOURCES  -->
-        <section class="resources">
-            <div class="u-center-text u-margin-bottom-big">
-                <h2 class="heading-secondary">Resources</h2>
-                <p class="paragraph">here will be resources for: read up on covid, sympotms and what to do, check on stimuls payment
-                    insta cart and other way to shop.</p>
-                    <a href="#tour" class="btn btn--white btn--animated">Click for More &rarr;</a>
-            </div>
-        </section>
-    </main>
-    <!-- POPUP -->
-     maybe?
-    <!-- FOOTER -->
-    <footer class="footer">
-
-    </footer>
     <script src="https://kit.fontawesome.com/725cff2ff8.js" crossorigin="anonymous"></script>
-   <script src="app.js" charset="utf-8"></script>
+   <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
