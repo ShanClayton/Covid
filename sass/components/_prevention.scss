@@ -35,3 +35,15 @@
     grid-gap: 2.5rem;
 }
 
+.prevention__grid-item {
+    height: 40rem;
+    padding: 5rem;
+    // color: $fafafa;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+}
+

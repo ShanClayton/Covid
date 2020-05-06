@@ -259,6 +259,24 @@ nav {
   grid-gap: 2.5rem;
 }
 
+.prevention__grid-item {
+  height: 40rem;
+  padding: 5rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
 .tracker {
   z-index: 1;
   width: 70%;
