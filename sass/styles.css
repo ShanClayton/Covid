@@ -221,6 +221,44 @@ nav {
   background-color: #fee6e2;
 }
 
+.prevention {
+  padding: 0;
+}
+
+.prevention__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.prevention__title p {
+  text-transform: lowercase;
+}
+
+.prevention__title-sub {
+  font-size: 1.4rem;
+}
+
+.prevention__title-main {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 2rem;
+  margin: .5rem 0 1rem;
+}
+
+.prevention__image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.prevention__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2.5rem;
+}
+
 .tracker {
   z-index: 1;
   width: 70%;
