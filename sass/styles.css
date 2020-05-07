@@ -235,14 +235,8 @@ nav {
 .prevention__title {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 10rem;
+  margin-top: 16rem;
   color: rgba(0, 0, 0, 0.7);
-}
-
-.prevention__title p {
-  text-transform: lowercase;
-  position: relative;
-  top: -80rem;
 }
 
 .prevention__title-sub {
@@ -252,7 +246,6 @@ nav {
 .prevention__title-main {
   font-family: 'Aldrich', sans-serif;
   font-size: 4rem;
-  margin: 0.7 0.5rem 0 1rem;
 }
 
 .prevention__text {
@@ -335,6 +328,19 @@ nav {
   height: 4.7rem;
   background: url("../img/wave-small-rev.png") center no-repeat;
   background-size: cover;
+}
+
+.tracker__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.tracker__title-main {
+  font-family: 'Nunito',sans-serif;
+  font-size: 4rem;
+  color: #fccbab;
 }
 
 .tracker__main {
