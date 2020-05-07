@@ -90,7 +90,7 @@ nav {
 }
 
 .nav__logo {
-  width: 4rem;
+  width: 5rem;
 }
 
 .nav__menu-icons i {
@@ -235,12 +235,12 @@ nav {
 .prevention__title {
   text-align: center;
   text-transform: uppercase;
-  margin-top: 16rem;
+  margin-top: 13rem;
   color: rgba(0, 0, 0, 0.7);
 }
 
 .prevention__title-sub {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .prevention__title-main {
@@ -260,6 +260,15 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.prevention__image.boy {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border: 3px solid #FF5D96;
 }
 
 .prevention__title-sub-third {
@@ -314,6 +323,7 @@ nav {
 .tracker {
   width: 100%;
   height: 80vh;
+  margin-top: 10rem;
   background: linear-gradient(135deg, rgba(87, 48, 178, 0.9) 0%, rgba(255, 93, 150, 0.8) 100%), url("../img/covidppltwo.jpg") center no-repeat;
   background-size: cover;
   position: relative;
