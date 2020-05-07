@@ -163,7 +163,7 @@ nav {
 .header__image-main {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(135deg, rgba(87, 48, 178, 0.9) 0%, rgba(255, 93, 150, 0.8) 100%), url("../img/covidppl.jpg") center no-repeat;
+  background: linear-gradient(135deg, rgba(255, 93, 150, 0.9) 0%, rgba(87, 48, 178, 0.8) 100%), url("../img/covidppl.jpg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -241,6 +241,8 @@ nav {
 
 .prevention__title p {
   text-transform: lowercase;
+  position: relative;
+  top: -80rem;
 }
 
 .prevention__title-sub {
@@ -249,8 +251,8 @@ nav {
 
 .prevention__title-main {
   font-family: 'Aldrich', sans-serif;
-  font-size: 2rem;
-  margin: .5rem 0 1rem;
+  font-size: 4rem;
+  margin: 0.7 0.5rem 0 1rem;
 }
 
 .prevention__text {
@@ -317,6 +319,25 @@ nav {
 }
 
 .tracker {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(135deg, rgba(87, 48, 178, 0.9) 0%, rgba(255, 93, 150, 0.8) 100%), url("../img/covidppltwo.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.tracker::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4.7rem;
+  background: url("../img/wave-small-rev.png") center no-repeat;
+  background-size: cover;
+}
+
+.tracker__main {
   z-index: 1;
   width: 70%;
   margin: 0 auto;
@@ -388,7 +409,6 @@ span {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
-  color: white;
 }
 
 @media screen and (max-width: 900px) {

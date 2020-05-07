@@ -11,6 +11,8 @@
 
 .prevention__title p {
     text-transform: lowercase;
+    position: relative;
+    top: -80rem;
 }
 
 .prevention__title-sub {
@@ -19,8 +21,8 @@
 
 .prevention__title-main {
     font-family: 'Aldrich', sans-serif;
-    font-size: 2rem;
-    margin: .5rem 0 1rem;
+    font-size: 4rem;
+    margin: .7.5rem 0 1rem;
 }
 
 .prevention__text {
