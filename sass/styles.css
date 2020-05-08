@@ -248,7 +248,9 @@ nav {
 }
 
 .prevention {
-  padding: 0;
+  background-color: #fee6e2;
+  padding: 25rem 0;
+  margin-top: -60vh;
 }
 
 .prevention__title {
