@@ -59,7 +59,7 @@
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
-    color: $color-menu-close;
+    color: $color-footer-btn;
     display: inline-block;
     margin-top: 2rem;
     padding: 1rem 2.5rem;
@@ -71,7 +71,7 @@
     -o-transition: background-color 650ms;
 
     &:hover {
-        background-color: $color-misty-rose;
+        background-color: $color-btn-footer;
     }
 }
 
