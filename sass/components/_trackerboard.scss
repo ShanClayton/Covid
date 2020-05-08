@@ -2,34 +2,34 @@
     width: 100%;
     height: 80vh;
     margin-top: 10rem;
-    background: linear-gradient(135deg, rgba($color-menu-close, 0.9) 0%, rgba($color-top-header, 0.8) 100%),
-        url("../img/covidppl.jpg") center no-repeat;
+    background-image: linear-gradient(to right bottom, rgba($color-menu-close, 0.8), rgba($color-btn-title, 0.8)),
+    url(../img/covidppl.jpg);
     background-size: cover;
     position: relative;
 }
 
-.tracker::before {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 4.7rem;
-   background: url("../img/wave-small-rev.png") center no-repeat;
-   background-size: cover;
-   }
+// .tracker::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 4.7rem;
+//     background: url("../img/wave-small-rev.png") center no-repeat;
+//     background-size: cover;
+// }
 
-   .tracker__title{
-       text-align: center;
-       margin-top: 8px;
-       color: rgba(0, 0, 0, .7);
-   }
+.tracker__title {
+    text-align: center;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, .7);
+}
 
-   .tracker__title-main{
-       font-family: 'Nunito',sans-serif;
-       font-size: 3rem;
-       color: $color-apricot;
-   }
+.tracker__title-main {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    color: $color-apricot;
+}
 
 
 .tracker__main {
@@ -107,7 +107,15 @@ span {
 
 // MEDIA QUERIES 
 
+// @media screen and (min-width: 470px) {
+//     .tracker::before {
+//         height: 9.4rem;
+//         background: url("../img/wave-medium-rev.png");
+//         background-size: cover;
+//     }
+// }
 
+// Tablet & Desktop
 @media screen and (max-width: 900px) {
     .tracker__board {
         column-count: 2;
@@ -130,9 +138,15 @@ span {
 
     }
 }
-
+/* PHONE VERSION */
 @media screen and (max-width: 500px) {
     .tracker__board {
-        column-count: 1;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .tracker__board {
+        column-count: 2;
     }
 }
