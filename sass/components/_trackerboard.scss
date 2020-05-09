@@ -1,23 +1,16 @@
 .tracker {
-    width: 100%;
-    height: 80vh;
-    margin-top: 10rem;
-    background: linear-gradient(135deg, rgba($color-menu-close, 0.9) 0%, rgba($color-top-header, 0.8) 100%),
-        url("../img/covidppl.jpg") center no-repeat;
-    background-size: cover;
-    position: relative;
+     width: 100%;
+     height: 95vh;
+    //  background-image: linear-gradient(to right bottom, rgba($color-menu-close, 0.8), rgba($color-btn-title, 0.8)),
+    //  url(../img/covidppl.jpg);
+    background-color: $color-btn-title;
+     background-size: cover;
+     background-position: top;
+     position: relative;
+     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    margin-top: -10vh;
 }
-
-// .tracker::before {
-//    content: "";
-//    position: absolute;
-//    top: 0;
-//    left: 0;
-//    width: 100%;
-//    height: 4.7rem;
-//    background: url("../img/wave-small-rev.png") center no-repeat;
-//    background-size: cover;
-//    }
 
    .tracker__title{
        text-align: center;
