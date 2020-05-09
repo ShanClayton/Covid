@@ -22,7 +22,7 @@
    }
 
    .tracker__title-sub {
-       @mixin sub-title;
+       @include sub-title;
    }
 
 
