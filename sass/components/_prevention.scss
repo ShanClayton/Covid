@@ -1,5 +1,4 @@
 .prevention {
-     background-color: $color-misty-rose;
      padding: 25rem 0;
      margin-top: -45vh;
 }
@@ -12,12 +11,11 @@
 }
 
 .prevention__title-sub {
-    font-size: 1.7rem;
+    @include sub-title;
 }
 
 .prevention__title-main {
-    font-family: 'Aldrich', sans-serif;
-    font-size: 4rem;
+ @include main-title;
 }
 
 .prevention__text {
