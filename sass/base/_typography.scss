@@ -100,3 +100,8 @@
         background-size: cover;
     }
 }
+    @media screen and (min-width: 700px) {
+        .header {
+            height: 8rem;
+        }
+    }
