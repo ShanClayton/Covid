@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
     height: 5rem;
     position: absolute;
@@ -11,25 +11,14 @@
     width: 100%;
     height: 95vh;
     background-image: linear-gradient(to right bottom, rgba($color-menu-close, 0.8), rgba($color-btn-title, 0.8)),
-    url(../img/covidppl.jpg);
+        url(../img/covidppl.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    
-}
 
-// .header__image-main::before {
-//     content: "";
-//     position: absolute;
-//     left: 0;
-//     bottom: 0;
-//     width: 100%;
-//     height: 4.7rem;
-//     background: url("../img/wave-small.png") center no-repeat;
-//     background-size: cover;
-// }
+}
 
 .header__main {
     width: 100%;
@@ -83,29 +72,27 @@
 
 // media queries
 
-@media screen and (min-width: 320px){
-    .header__main{
+@media screen and (min-width: 320px) {
+    .header__main {
         transform: translateY(40%);
         -webkit-transform: translateY(40%);
         -moz-transform: translateY(40%);
         -ms-transform: translateY(40%);
         -o-transform: translateY(40%);
-}
+    }
 }
 
-@media screen and (min-width: 470px){
-    .header__image-main:before{
+@media screen and (min-width: 470px) {
+    .header__image-main:before {
         height: 9.4rem;
         background: url("../img/wave-medium.png");
         background-size: cover;
     }
 }
-    @media screen and (min-width: 700px) {
-        .header {
-            height: 8rem;
-        }
 
-        .header__image-main {
-            height: 60vh;
-        }
+@media screen and (min-width: 700px) {
+    .header {
+        height: 8rem;
     }
+
+}
