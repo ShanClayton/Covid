@@ -282,6 +282,7 @@ nav {
 
 .header__text-p {
   text-transform: lowercase;
+  word-wrap: break-word;
 }
 
 .btn {
@@ -465,6 +466,7 @@ nav {
 
 .tracker__title-sub {
   font-size: 1.7rem;
+  text-transform: uppercase;
 }
 
 .tracker__main {

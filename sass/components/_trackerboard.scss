@@ -23,6 +23,7 @@
 
    .tracker__title-sub {
        @include sub-title;
+       text-transform: uppercase;
    }
 
 
