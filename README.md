@@ -1,4 +1,4 @@
-# Covid
+# Covid-19 Prevention Tips & Tracker
 Resource website that tracks current Covid-19 cases in the United States.
 #Credit
 Images from Vexels
