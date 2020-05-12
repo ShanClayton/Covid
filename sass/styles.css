@@ -428,19 +428,25 @@ nav {
   background: url("../img/swirlstars.jpg") center no-repeat;
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (min-width: 468px) {
   .prevention__title {
     margin-top: 10rem;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
   .prevention__title {
-    margin-top: 13rem;
+    margin-top: 15rem;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
+  .prevention__title {
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   .prevention__title {
     margin-top: 30rem;
   }
@@ -579,7 +585,7 @@ span {
             column-count: 2;
   }
   .card span {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -587,6 +593,9 @@ span {
   .tracker__board {
     -webkit-column-count: 2;
             column-count: 2;
+  }
+  .tracker__title {
+    margin-top: 1px;
   }
   .card span {
     font-size: 1rem;

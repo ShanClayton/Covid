@@ -108,7 +108,7 @@ span {
     }
 
     .card span {
-        font-size: 1rem;
+        font-size: 2rem;
 
     }
 }
@@ -116,6 +116,10 @@ span {
 @media screen and (max-width: 768px) {
     .tracker__board {
         column-count: 2;
+    }
+
+    .tracker__title {
+        margin-top: 1px;
     }
 
     .card span {
