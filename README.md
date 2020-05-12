@@ -1,5 +1,7 @@
 # Covid
-##Covid-19 
+Resource website that tracks current Covid-19 cases in the United States.
+#Credit
+Images from Vexels
 <a href="https://www.vexels.com/vectors/preview/193288/covid-19-washing-hands-icon"> Covid 19 washing hands icon </a> | designed by Vexels
 
 <a target="_blank" href="https://www.vexels.com/vectors/preview/193244/covid-19-doctor-character-icon"> Covid 19 doctor character icon </a> |   Designed by Vexels.com
@@ -16,4 +18,3 @@
 <a target="_blank" href="https://www.vexels.com/png-svg/preview/193265/covid-19-stay-home-icon"> Covid 19 stay home house </a> |   Designed by Vexels.com
 
 
-## edit this area with what the app does and credit
