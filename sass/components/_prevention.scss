@@ -20,8 +20,8 @@
 
 .prevention__text {
     font-family: 'Lato', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 200;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .prevention__image {
@@ -44,8 +44,10 @@
 .prevention__title-sub-third {
     font-size: 'Aldrich', sans-serif;
     font-size: 1.7rem;
+    font-weight: bold;
     text-transform: uppercase;
     margin: 2rem 0;
+    color: $color-btn-footer;
 }
 
 // creating a grid that collapses when there isn't enough space. eliminating the need for media queries
