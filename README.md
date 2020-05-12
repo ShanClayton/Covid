@@ -1,5 +1,5 @@
-# Covid-19 Prevention Tips,Tracker, and Resources
-Resource website that tracks current Covid-19 cases in the United States.
+# Covid-19 Prevention Tips, Tracker & Resources
+Resource website that tracks current Covid-19 cases in the United States. Prevention tips and resources are also provided.
 # Credit
 Images from Vexels
 <a href="https://www.vexels.com/vectors/preview/193288/covid-19-washing-hands-icon"> Covid 19 washing hands icon </a> 
@@ -15,6 +15,7 @@ Images from Vexels
 <a target="_blank" href="https://www.vexels.com/vectors/preview/193236/covid-19-blonde-girl-character-icon"> Covid 19 blonde girl character icon </a> 
 
 <a target="_blank" href="https://www.vexels.com/vectors/preview/193290/covid-19-woman-symptom-headache"> Covid 19 woman symptom headache </a>  
+
 <a target="_blank" href="https://www.vexels.com/png-svg/preview/193265/covid-19-stay-home-icon"> Covid 19 stay home house </a>
 
 

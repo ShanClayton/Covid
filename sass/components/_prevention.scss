@@ -85,3 +85,23 @@
 .star-gazing {
     background: url("../img/swirlstars.jpg") center no-repeat;
 }
+
+// MEDIA QUERIES
+@media screen and (max-width: 468px) {
+    .prevention__title {
+        margin-top: 10rem;
+    }
+}
+
+    @media screen and (max-width: 900px){
+        .prevention__title {
+            margin-top: 13rem;
+        }
+
+    }
+
+@media screen and (max-width: 1024px) {
+    .prevention__title {
+        margin-top: 30rem;
+    }
+}

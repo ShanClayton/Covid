@@ -202,7 +202,7 @@ nav {
     position: absolute;
     left: 0;
     bottom: -.5rem;
-    background-color: #F7A1C4;
+    background-color: #93c0bd;
     width: 100%;
     height: 2px;
     transform: scaleX(0);
@@ -426,6 +426,24 @@ nav {
 
 .star-gazing {
   background: url("../img/swirlstars.jpg") center no-repeat;
+}
+
+@media screen and (max-width: 468px) {
+  .prevention__title {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .prevention__title {
+    margin-top: 13rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .prevention__title {
+    margin-top: 30rem;
+  }
 }
 
 .resource {
