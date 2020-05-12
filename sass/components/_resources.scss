@@ -7,6 +7,15 @@
     margin-top: -45vh;
 }
 
+.resource__title{
+    font-size: 'Lato',sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    color: $color-btn-title;
+}
+
 .resource__link {
     color: rgba(0, 0, 0, .7);
 }
