@@ -355,9 +355,18 @@ nav {
 
 .prevention__text {
   font-family: 'Lato', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   letter-spacing: 2px;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #FF5D96;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .prevention__image {
@@ -434,7 +443,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 922px) {
   .prevention__title {
     margin-top: 15rem;
   }
@@ -603,7 +612,7 @@ span {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 320px) {
   .tracker__board {
     -webkit-column-count: 2;
             column-count: 2;
