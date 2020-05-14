@@ -360,7 +360,7 @@ nav {
   letter-spacing: 2px;
 }
 
-ul li::before {
+.prevention__text::before {
   content: "\2022";
   color: #FF5D96;
   font-weight: bold;
@@ -478,7 +478,7 @@ ul li::before {
   font-weight: bold;
   text-transform: uppercase;
   margin: 2rem 0;
-  color: #361134;
+  color: #003F5A;
 }
 
 .resource__link {
