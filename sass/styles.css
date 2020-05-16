@@ -56,7 +56,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #5730B2;
+  color: #333;
 }
 
 ul {
@@ -462,11 +462,6 @@ nav {
 }
 
 .resource {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 2.5rem;
   margin-bottom: 2rem;
   padding: 25rem 0;
   margin-top: -45vh;
@@ -479,10 +474,20 @@ nav {
   text-transform: uppercase;
   margin: 2rem 0;
   color: #003F5A;
+  border-bottom: 1px solid #361134;
 }
 
 .resource__link {
   font-size: 1.7rem;
+}
+
+.resource__link::before {
+  content: "\2022";
+  color: #FF5D96;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .timeline ul {
