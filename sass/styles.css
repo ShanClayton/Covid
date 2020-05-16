@@ -490,7 +490,7 @@ nav {
   margin-left: -1em;
 }
 
-.timeline ul {
+.resource__list ul {
   border-left: 4px solid #9b5de5;
   border-radius: .8rem;
   background-color: rgba(0, 0, 0, 0.05);
@@ -503,7 +503,7 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  .timeline ul {
+  .resource__list ul {
     margin: 0 0 0 auto;
   }
 }
