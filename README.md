@@ -1,7 +1,8 @@
 # Covid-19 Prevention Tips, Tracker & Resources
 Resource website that tracks current Covid-19 cases in the United States. Prevention tips and resources are also provided.
 # Credit
-Images from Vexels
+Images from Vexels<br>
+
 <a href="https://www.vexels.com/vectors/preview/193288/covid-19-washing-hands-icon"> Covid 19 washing hands icon </a> 
 
 <a target="_blank" href="https://www.vexels.com/vectors/preview/193244/covid-19-doctor-character-icon"> Covid 19 doctor character icon </a> 
