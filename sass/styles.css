@@ -41,6 +41,7 @@ footer {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 75em) {
