@@ -6,15 +6,15 @@
 .prevention__title {
     text-align: center;
     text-transform: uppercase;
-    margin-top: 13rem;
+    margin-top: 15rem;
     color: rgba(0, 0, 0, .7);
 }
 
-.prevention__title-sub {
+.header__title-sub {
     @include sub-title;
 }
 
-.prevention__title-main {
+.header__title-main {
  @include main-title;
 }
 
@@ -96,28 +96,31 @@
 }
 
 // MEDIA QUERIES
-@media screen and (min-width: 468px) {
+
+@media only screen and (max-width: 1024px) {
+    .prevention__title {
+        margin-top: 40rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .prevention__title {
         margin-top: 10rem;
     }
 }
 
-    @media screen and (min-width: 922px){
+    @media only screen and (max-width: 768px) {
+        .prevention__title {
+            margin-top: 30rem;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
         .prevention__title {
             margin-top: 15rem;
         }
-
     }
 
-    @media screen and (min-width: 768px){
-        .prevention__title {
-            margin-top: 20rem;
-        }
 
-    }
 
-@media screen and (min-width: 1024px) {
-    .prevention__title {
-        margin-top: 30rem;
-    }
-}
+
