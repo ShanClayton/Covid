@@ -1,5 +1,5 @@
 # Covid-19 Prevention Tips, Tracker & Resources
-Resource website that tracks current Covid-19 cases in the United States. Prevention tips and resources are also provided.
+Information site that tracks current Covid-19 cases in the United States. Prevention tips and resources are also provided.
 # Credit
 Images from Vexels<br>
 
