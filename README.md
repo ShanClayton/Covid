@@ -1,5 +1,7 @@
 # Covid-19 Prevention Tips, Tracker & Resources
 Information site that tracks current Covid-19 cases in the United States. Prevention tips and resources are also provided.
+# Future Optimizations
+- Search by city and state
 # Credit
 Images from Vexels<br>
 
