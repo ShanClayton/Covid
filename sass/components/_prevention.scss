@@ -1,6 +1,6 @@
 .prevention {
-     padding: 25rem 0;
-     margin-top: -45vh;
+    padding: 25rem 0;
+    margin-top: -45vh;
 }
 
 .prevention__title {
@@ -15,7 +15,7 @@
 }
 
 .header__title-main {
- @include main-title;
+    @include main-title;
 }
 
 .prevention__text {
@@ -58,7 +58,7 @@
     text-transform: uppercase;
     margin: 2rem 0;
     color: $color-btn-footer;
-    
+
 }
 
 // creating a grid that collapses when there isn't enough space. eliminating the need for media queries
@@ -97,6 +97,12 @@
 
 // MEDIA QUERIES
 
+@media only screen and (max-width: 5120px) and (min-width:1030px) {
+    .prevention__title {
+        margin-top: 30rem;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .prevention__title {
         margin-top: 40rem;
@@ -109,18 +115,14 @@
     }
 }
 
-    @media only screen and (max-width: 768px) {
-        .prevention__title {
-            margin-top: 30rem;
-        }
+@media only screen and (max-width: 768px) {
+    .prevention__title {
+        margin-top: 30rem;
     }
+}
 
-    @media only screen and (max-width: 600px) {
-        .prevention__title {
-            margin-top: 15rem;
-        }
+@media only screen and (max-width: 600px) {
+    .prevention__title {
+        margin-top: 15rem;
     }
-
-
-
-
+}
