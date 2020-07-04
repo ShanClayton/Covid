@@ -3,7 +3,7 @@ Information site that tracks current Covid-19 cases in the United States. Preven
 # Future Optimizations
 - Search by city and state
 # Credit
-Images from Vexels<br>
+Images from Vexels.com<br>
 
 <a href="https://www.vexels.com/vectors/preview/193288/covid-19-washing-hands-icon"> Covid 19 washing hands icon </a> 
 
